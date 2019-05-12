@@ -1,0 +1,109 @@
+.box1 {
+  min-height: 400px;
+  padding: 20px;
+  margin: 40px 0% 40px 0%;
+}
+
+.box2 {
+    min-height: 400px;
+    padding: 20px;
+    margin: 40px 0% 40px 0%;
+  }
+
+.compbox {
+    padding: 20px;
+    margin: 40px 0px 40px 0px;
+}
+
+.box1 img {
+    width:300px; 
+    padding: 5px 15px 6px 0px; 
+    float: left;
+}
+
+.box2 img {
+      width: 151px
+  }
+
+.compbox img {
+    width: 80%;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.ice {
+    background-color: rgba(189, 218, 219, 0.856)
+}
+
+.white {
+    background: white;
+    color: rgb(73, 86, 92);
+}
+
+.dark-text {
+    color: rgb(73, 86, 92);
+}
+
+.dark-background {
+    background-color: rgb(99, 118, 122);
+    padding: 15px 32px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 5px;
+    color:linen;
+    font-weight: 620;
+}
+
+h2 {
+    padding: 45px 20px 5px 20px;
+    color: white;
+    text-align: center;
+    font-size: 2.8em;
+}
+
+.unique {
+    border: solid 3px rgb(130, 96, 224);
+    border-radius: 3px;
+}
+
+.temp img {
+    margin:20px 1px 0px 0px;
+}
+
+.foot {
+    height: 75px;
+    bottom: 0;
+    margin: 5% 0% 0% 0%;
+    width: 100%;
+    background-color: rgb(59, 70, 75);
+    border-top-style: solid;
+    border-top-width: 15px;
+    border-top-color: rgb(99, 118, 122);
+    color: white;
+    text-align: center;
+  }
+
+  /* nav a:hover {
+      color: blue
+  }
+
+  nav a:active {
+      color: brown */
+  }
+
+@media (max-width: 770px) {
+    .compbox img {
+        width: 20%;
+        justify-content: center;
+    }
+    .compbox div {
+        float: none;
+    }
+    .box2 img {
+        width: 50px;
+        float: left;
+    }
+    .box2 {
+        min-height: 225px;
+        margin: 10px 2% 70px 2%;
+    }
+  }
