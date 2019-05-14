@@ -24,8 +24,10 @@
 </head>
 
 <body class="ice">
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-collapse-sm" style="background-color: rgb(59, 70, 75)">
-        <a class="navbar-brand dark-background" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-collapse-sm"
+         style="background-color: rgb(59, 70, 75)">
+        <a class="navbar-brand dark-background"
+           style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"
            href="index.html">Global Weather Exploration</a>
         <button class="navbar-toggler"
                 type="button"
@@ -56,11 +58,10 @@
                            href="temperature.html">Temperature</a>
                         <a class="dropdown-item"
                            href="humidity.html">Humidity</a>
-                           <a class="dropdown-item"
+                        <a class="dropdown-item"
                            href="cloud-coverage.html">Cloud Coverage</a>
-                           <a class="dropdown-item"
+                        <a class="dropdown-item"
                            href="wind-speed.html">Wind Speed</a>
-                        <!-- <div class="dropdown-divider"></div> -->
                     </div>
                 </li>
                 <li class="nav-item">
@@ -71,44 +72,53 @@
                     <a class="nav-link"
                        href="data.html">Data</a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Why is this here? I O NO</a>
-                </li> -->
             </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form> -->
         </div>
     </nav>
     <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xs-12 col-md-8">
-                    <div class="box1 white">
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-md-8">
+                <div class="box1 white">
                     <h3>Latitude vs. Wind Speed</h3>
                     <hr>
                     <img src="windvslatitude.png">
-                    <p>The data gathered regarding wind speeds in these cities as of April 2019 shows that the most common wind speeds are below 15 mph across the globe. Aside from showing information regarding average wind speeds, this plot shows no direct link between a city's latitude and how windy it may or may not be.</p>
-                    <p>The data from April of 2019 shows no correlation between a city's latitude and its wind speed.</p>
-                    </div>
+                    <p>The data gathered regarding wind speeds in these cities as of April 2019 shows that the most
+                        common wind speeds are below 15 mph across the globe. Aside from showing information regarding
+                        average wind speeds, this plot shows no direct link between a city's latitude and how windy it
+                        may or may not be.</p>
+                    <p>The data from April of 2019 shows no correlation between a city's latitude and its wind speed.
+                    </p>
                 </div>
-                <div class="col-xs-12 col-md-4 temp">
-                    <div class="box2 white">
-                        <h4>Visualizations</h4>
-                        <hr>
-                        <a href="humidity.html"><img src="humidvslatitude.png"
-                             alt="city humidity vs latitude comparison"></a>
-                        <a href="cloud-coverage.html"><img src="cloudvslatitude.png"
-                             alt="city cloud coverage vs latitude comparison"></a>
-                        <a href="temperature.html"><img src="tempvlatitude.png"
-                             alt="city temperature vs latitude comparison"></a>
-                        <a href="wind-speed.html"><img src="windvslatitude.png"
-                             alt="city wind speed vs latitude comparison" class="unique"></a>
+            </div>
+            <div class="col-xs-12 col-md-4 temp">
+                <div class="box2 white">
+                    <h4>Visualizations</h4>
+                    <hr>
+                    <div class="row"
+                         style="justify-content: center">
+                        <div class="col-sm-3 col-md-12 col-lg-6">
+                            <a href="humidity.html"><img src="humidvslatitude.png"
+                                     alt="city humidity vs latitude comparison"></a>
+                        </div>
+                        <div class="col-sm-3 col-md-12 col-lg-6">
+                            <a href="cloud-coverage.html"><img src="cloudvslatitude.png"
+                                     alt="city cloud coverage vs latitude comparison"></a>
+                        </div>
+                        <div class="col-sm-3 col-md-12 col-lg-6">
+                            <a href="temperature.html"><img src="tempvlatitude.png"
+                                     alt="city temperature vs latitude comparison"></a>
+                        </div>
+                        <div class="col-sm-3 col-md-12 col-lg-6">
+                            <a href="wind-speed.html"><img src="windvslatitude.png"
+                                     alt="city wind speed vs latitude comparison"
+                                     class="unique"></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="foot">
-                <p style="margin: 15px">Data Analytics Bootcamp 2019</p>
-        </div>
+    </div>
+    <div class="foot">
+        <p style="margin: 15px">Data Analytics Bootcamp 2019</p>
+    </div>
 </body>

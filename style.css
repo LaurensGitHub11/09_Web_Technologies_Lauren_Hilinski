@@ -22,7 +22,8 @@
 }
 
 .box2 img {
-      width: 151px
+    width: 100%;
+    justify-content: center;
   }
 
 .compbox img {
@@ -66,7 +67,7 @@ h2 {
 }
 
 .temp img {
-    margin:20px 1px 0px 0px;
+    margin:20px 0px 0px 0px;
 }
 
 .foot {
@@ -88,22 +89,29 @@ h2 {
 
   nav a:active {
       color: brown */
+
   }
 
-@media (max-width: 770px) {
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .temp img {
+        width: 50%;
+        margin:20px 0px 0px 0px;
+    }
+    
+  }
+
+  @media (max-width: 767.98px) {
     .compbox img {
-        width: 20%;
-        justify-content: center;
+        width: 100%;
     }
-    .compbox div {
-        float: none;
+
+    .compbox h4 {
+        margin: 20px 0px 5px 0px;
     }
-    .box2 img {
-        width: 50px;
-        float: left;
-    }
+
     .box2 {
-        min-height: 225px;
-        margin: 10px 2% 70px 2%;
+        margin: 5px 2% 70px 2%;
+        max-height: 200px;
     }
+
   }
